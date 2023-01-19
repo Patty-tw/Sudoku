@@ -5,7 +5,7 @@
 
 ## Functions 
 
-### grid_from_file(file_name): 
+# grid_from_file(file_name): 
 
 ### subgrid_values(grid, row, column):
 
