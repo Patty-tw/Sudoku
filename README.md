@@ -15,11 +15,13 @@ Takes a *n x n* sudoku grid, a row coordinate, and a column coordinate, and retu
 Determines whether a particular value can be entered at a particular location in a valid grid, while maintaining validity 
 
 ### options(grid, row):
+Returns rows that are empty 
 
 ### grids_augmented_in_row(grid, num, r):
 Returns the complete list of valid augmented grids, where each grid contains *num* in row *r*
 
 ### available(grid, num):
+Returns all possible rows that *num* could be filled in
 
 ### grid_augmented_with_number(grid, num):
 Returns a list of valid *n x n* gridsm where each grid contains *n nums*
