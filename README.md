@@ -9,7 +9,7 @@
 Reads in a file containing a sudoku grid and returns the contents of the file as a Python-readable table
 
 ### subgrid_values(grid, row, column):
-Takes a *n x n * sudoku grid, a row coordinate, and a column coordinate, and returns a list containing the *n* values of the subgrid that the item at the coordinate belongs to
+Takes a *n x n* sudoku grid, a row coordinate, and a column coordinate, and returns a list containing the *n* values of the subgrid that the item at the coordinate belongs to
 
 ### valid_entry(grid, num, row, column):
 Determines whether a particular value can be entered at a particular location in a valid grid, while maintaining validity 
