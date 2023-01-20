@@ -6,6 +6,7 @@
 ## Functions 
 
 ### grid_from_file(file_name): 
+reads in a file containing a sudoku grid and returns the contents of the file as a Python-readable table
 
 ### subgrid_values(grid, row, column):
 
