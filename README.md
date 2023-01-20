@@ -19,10 +19,12 @@ Determines whether a particular value can be entered at a particular location in
 ### grids_augmented_in_row(grid, num, r):
 Returns the complete list of valid augmented grids, where each grid contains *num* in row *r*
 
-### available(grid, num) 
+### available(grid, num):
 
-### grid_augmented_with_number(grid, num)
+### grid_augmented_with_number(grid, num):
+Returns a list of valid *n x n* gridsm where each grid contains *n nums*
 
-### solve_sudoku_grid(grid)
+### solve_sudoku_grid(grid):
+Finds the solution for a given sudoku 
 
 
